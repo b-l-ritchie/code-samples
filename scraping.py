@@ -1,4 +1,4 @@
-# Sample One: Scraping Earnings Calendar Information, Estimates, and Results from ZACKS and creating dataframe
+# Scraping Earnings Calendar Information, Estimates, and Results from ZACKS and creating dataframe
 
 import requests
 from bs4 import BeautifulSoup
@@ -34,7 +34,7 @@ for ticker in tickers:
     # df_append.dropna(subset=['Reported'], inplace=True)
     df_earnings_announcements = df_earnings_announcements.append(df_append)
 
-# Sample Two: Scraping List of Current S&P 500 Constituents from Wikipedia
+# Scraping List of Current S&P 500 Constituents from Wikipedia
 
 import pandas as pd
 import requests
